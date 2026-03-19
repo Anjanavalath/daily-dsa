@@ -13,3 +13,4 @@ As a CSE student aiming for excellence in software engineering, I believe that s
 * **Focus Areas:** Arrays, Strings, Linked Lists, Trees, and Dynamic Programming.
 
 ## 📂 Folder Structure
+* Arrays -> ARRAYS
