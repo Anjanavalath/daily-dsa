@@ -1,0 +1,19 @@
+#include <iostream>
+uisng namespace std;
+
+//brute force solution
+
+int maximizingXor(int l, int r) {
+    int max=0;
+    int temp=0;
+    for (int i=l;i<=r;i++){
+        for(int j=i;j<=r;j++){
+            temp=i^j;
+            if(temp>max){
+                max=temp;
+            }
+        }
+    }
+    return max;
+
+}
